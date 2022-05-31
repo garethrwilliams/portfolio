@@ -12,9 +12,14 @@ export default function About() {
             I'm a full-stack graduate
           </h1>
           <p className='mb-8 leading-relaxed'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            A motivated and creative professional looking to take the first
+            steps toward a career in software development. I have recently
+            graduated from the Northcoders coding bootcamp where I learned the
+            core principals of Javascript as well as other technologies such as
+            Express Router, React and SQL. My experience lies in working with
+            technology and people to create experiences and make interesting
+            things happen and I am excited to take these skills forward and
+            build the foundation of a lifetime of learning and growth.
           </p>
           <div className='flex justify-center'>
             <a
