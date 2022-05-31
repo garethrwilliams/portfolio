@@ -13,7 +13,7 @@ export const projects = [
     description:
       'NC News is a reddit style react web app where users can post, read, and comment upon articles. Articles can be filtered by category, and sorted with a variety of metrics.',
     image: './frontend.png',
-    link: 'https://reactbootcamp.com',
+    link: 'https://github.com/garethrwilliams/FE-NC-News',
   },
   {
     title: 'Murdle',
