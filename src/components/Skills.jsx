@@ -15,7 +15,7 @@ export default function Skills() {
             I have predominantly written in JavaScript during the duration of my
             studies and have used it to build frontend and backend applications.
             I am currently looking to further my vocabulary by also learning
-            Python.
+            Python and PHP.
           </p>
         </div>
         <div className='flex flex-wrap justify-evenly lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2'>
