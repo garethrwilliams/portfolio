@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import ReactGA from 'react-ga';
 
+// tracking id from Google
 const TRACKING_ID = 'UA-232344407-1';
 ReactGA.initialize(TRACKING_ID);
 
