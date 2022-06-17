@@ -1,12 +1,14 @@
 import { ArrowRightIcon } from '@heroicons/react/solid';
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 export default function Navbar() {
   return (
     <header className='bg-gray-800 md:sticky top-0 z-10'>
       <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
         <button className='font-medium text-white mb-4 md:mb-0'>
-          <a href='#about' className='ml-4 text-xl'>
+          <a href='#about' className='md:ml-4 text-xl'>
             Gareth Williams
           </a>
         </button>
@@ -18,6 +20,33 @@ export default function Navbar() {
             Skills
           </a>
         </nav>
+        <div className='flex-1 md:flex-none mt-4 md:mt-0'>
+          <a
+            href='https://www.linkedin.com/in/gareth-williams-39a6bb177/'
+            target={'_blank'}
+            rel='noreferrer'
+            className='h-6 w-6 md:mr-3 mb-2 mt-2 md:mt-0 px-2'
+          >
+            <FontAwesomeIcon
+              icon={brands('linkedin')}
+              size='2x'
+              className='hover:text-white'
+            />
+          </a>
+          <a
+            href='https://github.com/garethrwilliams'
+            target={'_blank'}
+            rel='noreferrer'
+            className='h-6 w-6 md:mr-3 mb-2 mt-2 md:mt-0'
+          >
+            <FontAwesomeIcon
+              icon={brands('github')}
+              size='2x'
+              className='hover:text-white'
+            />
+          </a>
+        </div>
+
         <a
           href='#contact'
           className='inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0'
