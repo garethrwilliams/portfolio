@@ -7,7 +7,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import ReactGA from 'react-ga';
 
-const TRACKING_ID = 'G-TM0H1SBQSN';
+const TRACKING_ID = 'UA-232344407-1';
 ReactGA.initialize(TRACKING_ID);
 
 export default function App() {
