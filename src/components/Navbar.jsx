@@ -2,6 +2,9 @@ import { ArrowRightIcon } from '@heroicons/react/solid';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
+import analyticsEventTracker from '../../useAnalyticsEventTracker';
+
+const gaEventTracker = analyticsEventTracker('Contact us');
 
 export default function Navbar() {
   return (
@@ -13,7 +16,7 @@ export default function Navbar() {
           </a>
         </button>
         <nav className='md:mr-auto ml-4 md:py-1 md:pl-4 md:border-1 md:border-gray-700 flex flex-wrap items-center text-base justify-center'>
-          <a href='#projects' className='mr-5 hover:text-white'>
+          <a href='#projects' className='mr-2 md:mr-5 hover:text-white'>
             Projects
           </a>
           <a href='#skills' className='mr-5 hover:text-white'>
@@ -26,6 +29,7 @@ export default function Navbar() {
             target={'_blank'}
             rel='noreferrer'
             className='h-6 w-6 md:mr-3 mb-2 mt-2 md:mt-0 px-2'
+            onClick={() => gaEventTracker('Linkedin')}
           >
             <FontAwesomeIcon
               icon={brands('linkedin')}
@@ -38,6 +42,7 @@ export default function Navbar() {
             target={'_blank'}
             rel='noreferrer'
             className='h-6 w-6 md:mr-3 mb-2 mt-2 md:mt-0'
+            onClick={() => gaEventTracker('Github')}
           >
             <FontAwesomeIcon
               icon={brands('github')}
