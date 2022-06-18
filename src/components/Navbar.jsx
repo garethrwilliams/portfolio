@@ -4,9 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
 import analyticsEventTracker from '../useAnalyticsEventTracker';
 
-
 export default function Navbar() {
-  const gaEventTracker = analyticsEventTracker('Contact us');
+  const gaEventTracker = analyticsEventTracker('Contact me');
 
   return (
     <header className='bg-gray-800 md:sticky top-0 z-10'>
