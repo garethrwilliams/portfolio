@@ -2,7 +2,8 @@ import { ArrowRightIcon } from '@heroicons/react/solid';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
-import analyticsEventTracker from '../../useAnalyticsEventTracker';
+import analyticsEventTracker from '../useAnalyticsEventTracker';
+
 
 export default function Navbar() {
   const gaEventTracker = analyticsEventTracker('Contact us');
