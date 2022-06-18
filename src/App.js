@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import ReactGA from 'react-ga';
 
 // tracking id from Google
-const TRACKING_ID = 'UA-232344407-1';
+const TRACKING_ID = 'UA-232344407-2';
 ReactGA.initialize(TRACKING_ID);
 
 export default function App() {
